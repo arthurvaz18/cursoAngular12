@@ -8,6 +8,7 @@ import { DiretivaNgForComponent } from './diretiva-ng-for/diretiva-ng-for.compon
 import { DiretivaNgClassComponent } from './diretiva-ng-class/diretiva-ng-class.component';
 import { DiretivaNgStyleComponent } from './diretiva-ng-style/diretiva-ng-style.component';
 import {FormsModule} from "@angular/forms";
+import { OperadorElvisComponent } from './operador-elvis/operador-elvis.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {FormsModule} from "@angular/forms";
     DiretivaNgSwitchCaseComponent,
     DiretivaNgForComponent,
     DiretivaNgClassComponent,
-    DiretivaNgStyleComponent
+    DiretivaNgStyleComponent,
+    OperadorElvisComponent
   ],
   imports: [
     BrowserModule,
