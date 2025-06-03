@@ -1,16 +1,7 @@
-<div *ngIf="cursos.length > 0">
-  <p>Lista de cursos</p>
+<div [hidden]="numero">
+  <p>6</p>
 </div>
 
-<div *ngIf="cursos.length == 0">
-  <p>Lista de trofel vazia</p>
-</div>
+<button (click)="ocultarNumero()">ocultar numero</button>
 
-
-<div *ngIf="palmeiras">
-  <p>Palmeiras tem mundial</p>
-</div>
-
-<div *ngIf="!palmeiras">
-  <p>Palmeiras não tem mundial</p>
-</div>
+<button (click)="apresentarNumero()">apresentar numero</button>
