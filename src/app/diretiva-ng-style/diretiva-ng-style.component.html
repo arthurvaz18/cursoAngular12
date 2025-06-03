@@ -1,0 +1,11 @@
+<p>diretiva-ng-style works!</p>
+
+<button
+  [ngStyle]="{
+    'backgroundColor': ativo ? 'blue' : 'gray',
+    'color': ativo ? 'white' : 'black',
+    'fontWeight': ativo ? 'bold' : 'normal',
+    'fontSize': tamanhoFonte + 'px'
+}" (click)="botaoAtivo()">clique aqui</button>
+<br>
+<input type="text" [(ngModel)]="tamanhoFonte">
