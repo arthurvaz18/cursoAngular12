@@ -16,6 +16,7 @@ import { DestacandoMouseDirective } from './template/destacando-mouse.directive'
 import { HostListenerHostBindingComponent } from './host-listener-host-binding/host-listener-host-binding.component';
 import { NgElseDirective } from './template/ng-else.directive';
 import { ServiceEstudoComponent } from './service-estudo/service-estudo.component';
+import {CursoService} from "./service/curso-service";
 
 @NgModule({
   declarations: [
@@ -39,7 +40,7 @@ import { ServiceEstudoComponent } from './service-estudo/service-estudo.componen
     FormsModule,
 
   ],
-  providers: [],
+  providers: [CursoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
