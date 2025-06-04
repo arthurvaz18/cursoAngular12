@@ -14,6 +14,8 @@ import { FundoAzulDirective } from './template/fundo-azul.directive';
 import { DiretivasCustomizadasComponent } from './diretivas-customizadas/diretivas-customizadas.component';
 import { DestacandoMouseDirective } from './template/destacando-mouse.directive';
 import { HostListenerHostBindingComponent } from './host-listener-host-binding/host-listener-host-binding.component';
+import { NgElseDirective } from './template/ng-else.directive';
+import { ServiceEstudoComponent } from './service-estudo/service-estudo.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { HostListenerHostBindingComponent } from './host-listener-host-binding/h
     FundoAzulDirective,
     DiretivasCustomizadasComponent,
     DestacandoMouseDirective,
-    HostListenerHostBindingComponent
+    HostListenerHostBindingComponent,
+    NgElseDirective,
+    ServiceEstudoComponent
   ],
   imports: [
     BrowserModule,

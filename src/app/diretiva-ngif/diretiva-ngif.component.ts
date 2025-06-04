@@ -7,13 +7,13 @@ import {Component, OnInit} from '@angular/core';
 })
 export class DiretivaNgifComponent implements OnInit {
 
-  numero: boolean = false;
+  numero: boolean = true;
 
   ocultarNumero(){
-    this.numero = true;
+    this.numero = false;
   }
   apresentarNumero(){
-    this.numero = false;
+    this.numero = true;
   }
   constructor() {
   }
