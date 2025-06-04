@@ -1,0 +1,9 @@
+<div>
+    <input type="text" #cursoInput>
+    <button (click)="adicionaCurso(cursoInput.value)">Adicionar Curso</button>
+
+    <div class="cursos"
+         *ngFor="let curso of cursos; let i = index">
+        {{ i + 1 }} - {{ curso }}
+    </div>
+</div>
