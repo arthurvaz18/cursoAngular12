@@ -16,8 +16,6 @@ import {DestacandoMouseDirective} from './template/destacando-mouse.directive';
 import {HostListenerHostBindingComponent} from './host-listener-host-binding/host-listener-host-binding.component';
 import {NgElseDirective} from './template/ng-else.directive';
 import {CursoService} from "./cursos/curso-service";
-import {CursosComponent} from './cursos/cursos.component';
-import {CriarCursoComponent} from "./criar-curso/criar-curso.component";
 import {CursoModule} from "./cursos/curso.module";
 import {CriarCursoModule} from "./criar-curso/criar-curso.module";
 

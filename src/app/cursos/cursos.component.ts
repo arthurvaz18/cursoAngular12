@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, EventEmitter, OnInit} from '@angular/core';
 import {CursoService} from "./curso-service";
 
 @Component({
@@ -15,6 +15,9 @@ export class CursosComponent implements OnInit {
 
   ngOnInit(): void {
     this.cursos = this.mainService.getCursos()
+    this.mainService.emitirCurso.subscribe(
+      curso => console.log(curso)
+    );
   }
 
   adicionaCurso(curso: string) {
