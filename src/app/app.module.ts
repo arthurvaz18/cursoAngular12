@@ -18,6 +18,7 @@ import {NgElseDirective} from './template/ng-else.directive';
 import {CursoService} from "./cursos/curso-service";
 import {CursoModule} from "./cursos/curso.module";
 import {CriarCursoModule} from "./criar-curso/criar-curso.module";
+import {LogService} from "./services/log.service";
 
 @NgModule({
   declarations: [
@@ -41,7 +42,7 @@ import {CriarCursoModule} from "./criar-curso/criar-curso.module";
     CursoModule,
     CriarCursoModule
   ],
-  providers: [CursoService],
+  providers: [CursoService,LogService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
