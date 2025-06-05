@@ -1,0 +1,7 @@
+<div class="livro">
+  <p>Titulo {{ livro.titulo | uppercase }}</p>
+  <p>Nota {{ livro.nota | number: '1.1-1' }}</p>
+  <p>Páginas {{ livro.numeroPaginas }}</p>
+  <p>Preço {{ livro.preco | currency: 'BRL' }}</p>
+  <p>Data de Lançamento {{ livro.dataLancamento | date: 'dd-MM-yyyy' }}</p>
+</div>

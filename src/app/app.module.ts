@@ -19,6 +19,7 @@ import {CursoService} from "./cursos/curso-service";
 import {CursoModule} from "./cursos/curso.module";
 import {CriarCursoModule} from "./criar-curso/criar-curso.module";
 import {LogService} from "./services/log.service";
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import {LogService} from "./services/log.service";
     DestacandoMouseDirective,
     HostListenerHostBindingComponent,
     NgElseDirective,
+    PipesComponent,
   ],
   imports: [
     BrowserModule,
